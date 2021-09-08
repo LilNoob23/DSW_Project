@@ -1,0 +1,32 @@
+main{
+    width: 100% !important;
+}
+
+.eventsdetails__title{
+    width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.eventsdetails__title span {
+    font-weight: 500;
+    color: gray;
+  }
+
+.img_event img{
+    width: 600px !important;
+}
+
+.detail .contents{
+    font-size: 15px;
+    color: #858484;
+}
+
+a{
+    text-decoration: none;
+}
+
+.info_text .text{
+    font-size: 18px;
+    font-weight: normal;
+}

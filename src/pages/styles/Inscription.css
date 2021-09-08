@@ -1,0 +1,103 @@
+.inscription-container main {
+  min-width: 760px;
+}
+
+.inscription__title {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.inscription__arrowbutton-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.inscription__arrowbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.inscription__arrowbutton .icon-arrowleft {
+  width: 100%;
+  color: black;
+}
+
+.inscription__header {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.inscription__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inscription__form-left {
+  width: 48%;
+}
+
+.inscription__form-right {
+  width: 48%;
+}
+
+.inscription__label {
+  display: inline-block;
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.inscription__label span {
+  display: inline-block;
+  width: 100%;
+}
+
+.inscription__label input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px 8px;
+}
+
+.inscription__label select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px 8px;
+}
+
+.inscription__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 10px;
+}
+
+.inscription__buttons button:nth-child(1) {
+  background-color: #09a305;
+  margin: 0;
+}
+
+.inscription__buttons button:nth-child(2) {
+  background-color: red;
+  margin: 0;
+}
+
+.inscription__label .voucher {
+  border: 1px solid #4f4f4f;
+  border-radius: 3px;
+}

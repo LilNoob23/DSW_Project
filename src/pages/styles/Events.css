@@ -1,0 +1,13 @@
+.eventos_title{
+    width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.main_content{
+    margin-top: 50px;
+}
+
+.input_submit{
+    cursor: pointer;
+}

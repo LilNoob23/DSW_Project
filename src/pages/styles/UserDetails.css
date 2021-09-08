@@ -1,0 +1,179 @@
+.Perfil-Container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ContainerForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  min-width: 700px;
+}
+
+.ContainerFormLeft {
+  flex: 0.4;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.ContainerFormRight {
+  flex: 0.6;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 50%;
+  height: auto;
+}
+
+.Image-User {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #dfdfdf; */
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  color: gray;
+  width: 18rem;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 38px;
+  margin-bottom: 20px;
+}
+
+.Image-User img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.user-icon {
+  height: 70%;
+}
+
+.ContainerFormLeft__button {
+  background-color: #11101d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 16px;
+  height: 30px;
+}
+
+.ContainerFormLeft__button span {
+  font-size: 1rem;
+}
+
+.ContainerFormLeft__button input {
+  display: none;
+}
+
+.ContainerFormLeft__button:active,
+.ContainerFormRight__header__button:active {
+  transform: scale(0.9);
+  transition: all 0.5s;
+}
+
+.ContainerFormLeft__button:hover {
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.ContainerFormRight__label {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.ContainerFormRight__label span {
+  display: inline-block;
+  width: 100%;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.ContainerFormRight__label input {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.ContainerFormRight__label select {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.ContainerFormRight__header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.Subtitle--modify {
+  width: 95%;
+  color: black;
+  margin-bottom: 1rem;
+  border: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.ContainerFormRight__header__button {
+  display: flex;
+  justify-content: center;
+  width: 2rem;
+  background-color: white;
+  border: none;
+}
+
+.pencil-icon {
+  width: 100%;
+  color: #11101d;
+}
+
+.ContainerButtons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-content: center;
+  padding-top: 3rem;
+}
+
+.ContainerForm__button {
+  padding: 0.5rem;
+  width: 8rem;
+  margin-left: 2rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.ContainerForm__button:active {
+  transform: scale(0.9);
+  transition: all 0.5s;
+}
+
+.ContainerForm__button:nth-child(1) {
+  background-color: #f90909;
+}
+
+.ContainerForm__button:nth-child(2) {
+  background-color: #09a305;
+}
+
+.Perfil-Container .Path {
+  color: black;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  width: 100%;
+}

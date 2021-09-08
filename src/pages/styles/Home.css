@@ -1,0 +1,261 @@
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.first_container {
+  /* min-width: 200px;
+  max-width: 400px; */
+  width: 700px;
+  /* display: flex; */
+}
+
+.form {
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.input_text {
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  width: 100%;
+  color: #666;
+}
+
+.input_text:focus {
+  border-color: #325cfe;
+  box-shadow: 0 0 8px 0 #325cfe;
+}
+
+.inputWithIcon .input_text {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  width: auto;
+  height: auto;
+  font-size: 22px;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 11px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: #325cfe;
+}
+
+.input_submit {
+  color: #fff;
+  padding: 8px 25px;
+  margin-left: 20px;
+  outline: none;
+  background: #325cfe;
+  border-radius: 4px;
+  border: 2px solid #325cfe;
+  transition: all 0.5s;
+}
+
+.input_submit:hover {
+  background: #1b41db;
+  border: 2px solid #1b41db;
+}
+
+.filter_content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link_filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.link_filter:hover {
+  color: #325cfe;
+}
+
+.filter i {
+  font-size: 25px;
+}
+
+/********************/
+
+.second_container,
+.third_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.cardsevent_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* display: grid; */
+  margin-left: auto;
+  margin-right: auto;
+  /* column-gap: 2em; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  margin-top: 30px;
+}
+/* @media (max-width: 1440px) {
+  .cardsevent_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1024px) {
+  .cardsevent_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .cardsevent_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
+
+.single_card {
+  width: 270px;
+  height: 320px;
+  border-radius: 20px;
+  margin: 15px 30px;
+  box-shadow: 6px 6px 5px rgb(0, 0, 0, 0.3);
+}
+.single_card p {
+  font-size: 16px;
+}
+
+.img_container {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+
+.icon_i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #32af6b;
+  display: inline-block;
+  border-top-left-radius: 20px;
+  padding: 10px;
+}
+
+.icon_i i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.img_event {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.event_title {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.button_details {
+  text-decoration: none;
+  color: #000;
+}
+
+.button_details:hover {
+  color: #000;
+}
+
+.event_title,
+.date_content i {
+  margin-left: 10px;
+}
+
+.date_content {
+  display: flex;
+  align-items: center;
+  background: #ece7e7;
+  color: #6b6b6b;
+  margin-top: 15px;
+}
+
+.fecha p {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.last_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.pricechild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price {
+  color: #6b6b6b;
+}
+
+.amount {
+  margin-left: 5px;
+}
+
+.button_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 30px;
+  background: #00ab07;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.button_price:hover {
+  color: #fff;
+  background: #09830d;
+}

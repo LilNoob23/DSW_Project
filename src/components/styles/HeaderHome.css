@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav_container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #11101d;
+}
+
+.link_home {
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav_logo {
+  margin-left: 70px;
+}
+
+.nav_links {
+  margin-right: 70px;
+}
+
+.nav_links .usernameactive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  width: 400px;
+}
+
+.nav_links .usernameactive .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.logo_img {
+  height: 40px;
+}
+
+.btn_link {
+  text-decoration: none;
+  color: #fff;
+  background: #325cfe;
+  padding: 10px 20px;
+  transition: all 0.5s;
+}
+
+.btn_link:hover {
+  background: #1b41db;
+  color: #fff;
+}

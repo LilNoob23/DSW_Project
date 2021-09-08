@@ -1,0 +1,181 @@
+.requests-list-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.requests-list-details__title {
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.requests-list-details__title span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.requests-list-details__button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.requests-list-details__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.requests-list-details__button .icon-arrowleft {
+  width: 100%;
+  color: black;
+}
+
+.requests-list-details__grid {
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "expediente expediente expediente expediente"
+    "fechaRegistro nombre nombre nombre"
+    "organizador grupo horaInicio fechaInicio"
+    "fechaFin tipoEvento descripcion descripcion"
+    "fotos inscripcion certificado ambiente"
+    "fotos participantes observaciones observaciones"
+    "fotos duracion observaciones observaciones";
+}
+
+.requests-list-details__item:nth-child(1) {
+  grid-area: expediente;
+  display: block;
+}
+.photorequest {
+  width: 250px;
+  margin: auto;
+}
+
+.requests-list-details__item:nth-child(2) {
+  grid-area: fechaRegistro;
+}
+
+.requests-list-details__item:nth-child(3) {
+  grid-area: nombre;
+}
+
+.requests-list-details__item:nth-child(4) {
+  grid-area: organizador;
+}
+
+.requests-list-details__item:nth-child(5) {
+  grid-area: grupo;
+}
+
+.requests-list-details__item:nth-child(6) {
+  grid-area: horaInicio;
+}
+
+.requests-list-details__item:nth-child(7) {
+  grid-area: fechaInicio;
+}
+
+.requests-list-details__item:nth-child(8) {
+  grid-area: fechaFin;
+}
+
+.requests-list-details__item:nth-child(9) {
+  grid-area: tipoEvento;
+}
+
+.requests-list-details__item:nth-child(10) {
+  grid-area: descripcion;
+}
+
+.requests-list-details__item:nth-child(11) {
+  grid-area: fotos;
+  border: 1px solid black; /* Eliminar esto al final*/
+}
+
+.requests-list-details__item:nth-child(12) {
+  grid-area: inscripcion;
+}
+
+.requests-list-details__item:nth-child(13) {
+  grid-area: certificado;
+}
+.requests-list-details__item:nth-child(14) {
+  grid-area: ambiente;
+}
+
+.requests-list-details__item:nth-child(15) {
+  grid-area: participantes;
+}
+
+.requests-list-details__item:nth-child(16) {
+  grid-area: observaciones;
+  color: rgb(255, 0, 0);
+}
+
+.requests-list-details__item:nth-child(17) {
+  grid-area: duracion;
+}
+
+.requests-list-details__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.requests-list-details__item span {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.requests-list-details__item input {
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid black; /*Eliminar esta linea al final*/
+  color: black;
+  background-color: white;
+}
+
+.requests-list-details__item textarea {
+  resize: none;
+  height: 120px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.requests-list-details__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.requests-list-details__buttons button {
+  padding: 10px 30px;
+}
+
+.requests-list-details__buttons button:nth-child(1) {
+  background-color: #09a305;
+  margin-right: 40px;
+}
+
+.requests-list-details__buttons button:nth-child(2) {
+  background-color: red;
+  margin-left: 40px;
+}

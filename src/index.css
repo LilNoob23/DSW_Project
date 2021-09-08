@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+:root {
+  --black: #11101d;
+  --white2: rgb(243, 243, 243);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  font-size: 14px;
+  width: 100%;
+  padding: 0.8em 0;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 1em;
+  border: 2px solid transparent;
+  outline: none;
+  background-color: #325cfe;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  transition: 450ms all;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.disable {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.generalerrormessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  color: red;
+  font-size: 14px;
+  border: 2px solid red;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}
+
+.hidden {
+  width: 0px;
+  display: none;
+}

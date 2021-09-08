@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0em auto;
+  padding-top: 1em;
+  background-color: white;
+}
+
+.header p {
+  margin: 1em 3em 1em 1em;
+}
+
+.header div {
+  font-size: 25px;
+}
+
+.header .icon {
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.header .user {
+  border: 3px solid var(--black);
+  border-radius: 9999px;
+}
+
+.header .signOut {
+  width: 25px;
+  cursor: pointer;
+}

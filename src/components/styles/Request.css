@@ -1,0 +1,48 @@
+.request-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.request__exp {
+  width: 20%;
+}
+
+.request__title {
+  width: 38%;
+}
+
+.request__date {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.calendar-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.request__icon {
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.document-icon {
+  width: 100%;
+  color: black;
+}
+
+.request__state {
+  margin-left: 15%;
+}
